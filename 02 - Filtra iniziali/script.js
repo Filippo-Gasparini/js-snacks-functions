@@ -6,9 +6,21 @@ console.log(names)
 
 // Dichiara la funzione qui.
 
-const newArray = names
+function getFirstLetters(array) {
+    const letters = [];
 // Invoca la funzione qui e stampa il risultato in console
+    for(let i = 0; i < array.length; i++) {
+        const names = array[i];
+     //   letters.push(names.charAt(0));
 
-console.log(newArray)
+        
+    }
+
+    return letters;
+}
+console.log(getFirstLetters(names));
+
+
+
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
