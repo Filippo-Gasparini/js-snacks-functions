@@ -7,11 +7,10 @@ console.log (names)
 
 // Dichiara la funzione qui.
 
-var newArray = names [''];
-console.log(newArray);
+var newArray = names.map(name => name.charAt(0));
 
 // Invoca la funzione qui e stampa il risultato in console
-//console.log(newArray)
 
+console.log (newArray)
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
